@@ -18,6 +18,6 @@ class Solution(object):
                 i += 1 # qua đứa khác
                 j += 1  # dùng bánh này
             else:
-                j +=1 # số bánh quá ít
+                j +=1 # số bánh quá ít không đủ qua đứa
         return count
           
