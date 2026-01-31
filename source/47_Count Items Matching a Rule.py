@@ -1,0 +1,16 @@
+# cài index
+# dùng item tại index để so với ruleValue
+class Solution(object):
+    def countMatches(self, items, ruleKey, ruleValue):
+        key_index = {
+            "type": 0,
+            "color" : 1,
+            "name" : 2
+        }
+        index = key_index[ruleKey]
+        count = 0
+        for item in items:
+            if item[index] == ruleValue:
+                count += 1
+        return count
+        
