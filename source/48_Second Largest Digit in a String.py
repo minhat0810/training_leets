@@ -16,8 +16,8 @@ class Solution(object):
         #         first = num
         #     elif first > num > second:
         #         second = num
-        # dùng sort 
         #return second
+        # dùng sort 
         digits = set(int(c) for c in s if c.isdigit())
         if len(digits) < 2:
             return -1
